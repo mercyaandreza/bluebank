@@ -1,0 +1,38 @@
+<form class="form">
+    <p>Blue Bank</p>
+    <div class="imgcontainer">
+        <img src="assets/img/bb.jpg">
+    </div>
+
+    <mat-grid-list cols="2" rowHeight="2:1" class="grid-container">
+        <mat-grid-tile>
+            <div class="container">
+
+                <label class="title" for="nome"><b>Nome</b></label>
+                <input  type="text" placeholder="digite a agencia apenas com números" [(ngModel)] ="usuario.nome" name="nome">
+
+                <!-- <label class="title" for="conta"><b>conta</b></label>
+                <input type="text" placeholder="digite a conta apenas com números" name="conta"> -->
+
+                <label class="title" for="psw"><b>senha</b></label>
+                <input type="password" placeholder="digite a senha" name="senha" [(ngModel)] ="usuario.senha">
+
+
+                <button type="submit" name="action" (click)="fazerLogin()">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+        </mat-grid-tile>
+
+        
+        <mat-grid-tile>
+            <p class="titulo"> Fácil E Prático</p>
+            <h1>Não saia do seu conforto para realizar transações simples.<br>Fácil e Prático é nosso lema, banco Blue
+                Bank
+                sempre com você.</h1>
+        </mat-grid-tile>
+
+    </mat-grid-list>
+</form>
+

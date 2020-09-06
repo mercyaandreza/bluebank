@@ -1,0 +1,73 @@
+  body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+ p{
+    font-size: 40px;
+    text-align: center;
+    font-family: monospace;
+    position: absolute;
+    left: 43%;
+    margin-top: 5%;
+}
+img{
+    width: 23%;
+    margin-top: 50px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.container {
+  padding: 16px;
+}
+
+h1{
+    font: 351 18px/23px Roboto, "Helvetica Neue", sans-serif;
+    margin: -12px 0 4px;
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    font-family: monospace;
+    position: absolute;
+    left: 26%;
+    margin-top: -28%;
+} 
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 10px;    
+    padding: 10px;
+  } 
+
+  label{
+      text-transform: uppercase;
+      
+  }

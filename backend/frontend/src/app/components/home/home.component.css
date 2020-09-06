@@ -1,0 +1,25 @@
+/* h1{
+    font: 400 24px/32px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+    margin: 11px 10px 16px;
+    top: -8px;
+} */
+
+/* .title{
+    position: absolute;
+    left:48%;    
+} */
+
+table{
+    margin-left: 28px;
+    width: 80%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    text-transform: uppercase;
+  }
+.body{
+    padding-top: 70px;
+}
